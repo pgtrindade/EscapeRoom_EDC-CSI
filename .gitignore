@@ -1,9 +1,28 @@
-/.vs/
-/Library/
-/Logs/
-/Temp/
-/Obj/
-/Build/
-/Builds/
-/UserSettings/
-/Packages/manifest.json
+# Build and temp files
+Build/
+Library/
+Temp/
+Obj/
+Logs/
+MemoryCaptures/
+UserSettings/
+
+# OS and Editor-specific files
+.DS_Store
+*.apk
+*.unitypackage
+
+
+# IDE files
+.vs/
+.vscode/
+*.csproj
+*.sln
+*.user
+*.pidb
+*.booproj
+
+# DO NOT ignore these (important!)
+# !Assets/
+# !Packages/
+# !ProjectSettings/
